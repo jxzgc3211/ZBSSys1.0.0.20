@@ -48,22 +48,5 @@ namespace ZBSSys
         public double PN { get => pN; set => pN = value + 0.000000001; }
         public double PCeq { get => pCeq; set => pCeq = value + 0.000000001; }
 
-
-
-        //public double PC { get; set; }
-        //public double PSi { get; set; }
-        //public double PMn { get; set; }
-        //public double PP { get; set; }
-        //public double PS { get; set; }
-        //public double PNb { get; set; }
-        //public double PV { get; set; }
-        //public double PTi { get; set; }
-        //public double PCr { get; set; }
-        //public double PNi { get; set; }
-        //public double PCu { get; set; }
-        //public double PAlt { get; set; }
-        //public double PMo { get; set; }
-        //public double PN { get; set; }
-        //public double PCeq { get; set; }
     }
 }
