@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ZBSSys.exe" version="1.0.0.19" publicKeyToken="a30e1fab272807aa" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="favicon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ZBSSys" version="1.0.0.0" publicKeyToken="A30E1FAB272807AA" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ZBSSys.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ICSharpCode.SharpZipLib.dll" size="196096">
+      <assemblyIdentity name="ICSharpCode.SharpZipLib" version="1.0.0.999" publicKeyToken="1B03E6ACF1164F73" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Gh4mVhHT4h+fpYs28YKikQUKwXHvQel8sJrqg08liKY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NPOI.dll" size="1623552">
+      <assemblyIdentity name="NPOI" version="2.4.1.0" publicKeyToken="0DF73EC7942B34E1" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>fpx0DvV4e9BZhubDiMbKZ8PI6kxc2BxPciZb4TPOB78=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NPOI.OOXML.dll" size="530432">
+      <assemblyIdentity name="NPOI.OOXML" version="2.4.1.0" publicKeyToken="0DF73EC7942B34E1" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>g3UjTbNbolUT3NK6rUtBpfNdmKp2tB0RQTRGydbulmU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NPOI.OpenXml4Net.dll" size="89088">
+      <assemblyIdentity name="NPOI.OpenXml4Net" version="2.4.1.0" publicKeyToken="0DF73EC7942B34E1" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>2DLUhkKBnw1tOrls9c9SJZMKcWFqTteJM/cL3YWJPx4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NPOI.OpenXmlFormats.dll" size="2078720">
+      <assemblyIdentity name="NPOI.OpenXmlFormats" version="2.4.1.0" publicKeyToken="0DF73EC7942B34E1" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>PLoaN8blg8DTNJEmSthGh5Dpb/YL1yoTGqU44jfuwEk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ZBSSys.exe" size="320352">
+      <assemblyIdentity name="ZBSSys" version="1.0.0.0" publicKeyToken="A30E1FAB272807AA" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Yu+hwkM2VtOzEcSkW+iVHUFkG3NbXWZLqGFX+N+rhaA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="favicon.ico" size="16958">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FaZugi2U2HrZzlOavedJHGqVj/6w7ClqARv1Qe6Ualw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ZBSSys.exe.config" size="1011">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>y0nCIuw0WoT99vOqCDqoaQPb5eehBi6txjZIcARJnl0=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=宿迁南钢金鑫轧钢有限公司" issuerKeyHash="26b2232a4531826ae0651df5634747c0977cdd57" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>v7kJoDValnlhKIgF01sKept7LYU=</DigestValue></Reference></SignedInfo><SignatureValue>G395KjOjU3CWc3hZhjlHmjrmiL9er/B51FWIe0aM6YNMc3iN+kvprsXv/oMo1Vn4aKoL2bOYAhwr8WxcETI5gB3P1n5L1SakhTQSmYW1oLvdNpUCSDhkNUrhPhLhOR6N9TPZ70oHPMKS2qDmJWsZBt1bChsMl7nqpXP00oo07ZAOmGm3IibYKYIjzgBzlRgtyRUy6uN/ZXPrtZS54ozFg0rbABFN2xNRtRokQIOXf2QHkilwq77O0zMSYgI/VdXmbC0NMHS+DlFNLYWJW3dKkStQ1XT93b+YVjOMr9JXHyzgLMh14zaW0sPgQZ5WZDOhWSRNUcUyl7bXvmNBcimFKg==</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qaX2YmhhVUlly7Mx0IrKutcQNds+S8XVa00D7434axUwszSpuznmOAd2UciFzmhtO7biZeAD/ucfxp6/8pZsjvofY/5MASZn1mAgi5kjMKOuPUac3XFKIusp0utHV3xDQqEskdkDQkO5lH/gUEeds2pqZQTY16MgGHtFU3S8SmwjwyBm7wVFN+yyyubL2caI3ChPAh0A/XnPJ9bElZ+/8K+RaYQNFGTEc/CFssebDhzxwCxT6VW/18gF3maUXZkrHtexDnyZRkusSG0YuG4TluO8zjdxRtUmjfA0FcmacbLw2T1q7Vr4pCE17Fg2F8lPJleUOkXtYQ0PghoxyA7x0Q==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="852d7b9b7a0a5bd30588286179965a35a009b9bf" Description="" Url=""><as:assemblyIdentity name="ZBSSys.exe" version="1.0.0.19" publicKeyToken="a30e1fab272807aa" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=宿迁南钢金鑫轧钢有限公司</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>YKsSEUe1UNg4uoj53sHRYPy+MOs=</DigestValue></Reference></SignedInfo><SignatureValue>SttTNUussqYGeVHjFJI2T2tGI6m+T/HL2nN4PILn//JekJ3dXuEvAgt17jWNfLKc1+CZiizljkDXVbZvJZDYhi3aXiiikM8+AlTucl1M25N9AikuMof4hhmZs7qQmkts6jsTQdsx8WKrFyeA7T3BQidP0cHoNHPAyUJSLK91uWQhYa1LGR9+YMQflHoWBGEUVt33Zj5ZkF3j54aWTXMgXUoPLz32kHSesq6tcUufoBu3whLiZyo6bDTwyFz98zpcDZQ9mnG0vWr+xzSxk4iDISq2ZY6VFinKDDukdZc0fTJdDqujDgSa46NIGRtHaU9xRZ3iZPIywObb4QO+vs5HCw==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qaX2YmhhVUlly7Mx0IrKutcQNds+S8XVa00D7434axUwszSpuznmOAd2UciFzmhtO7biZeAD/ucfxp6/8pZsjvofY/5MASZn1mAgi5kjMKOuPUac3XFKIusp0utHV3xDQqEskdkDQkO5lH/gUEeds2pqZQTY16MgGHtFU3S8SmwjwyBm7wVFN+yyyubL2caI3ChPAh0A/XnPJ9bElZ+/8K+RaYQNFGTEc/CFssebDhzxwCxT6VW/18gF3maUXZkrHtexDnyZRkusSG0YuG4TluO8zjdxRtUmjfA0FcmacbLw2T1q7Vr4pCE17Fg2F8lPJleUOkXtYQ0PghoxyA7x0Q==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIDIDCCAgygAwIBAgIQg015a+Eja5ZLgPzp4PwonjAJBgUrDgMCHQUAMCMxITAfBgNVBAMeGFu/j8FTV5SikdGUa49nlKJnCZZQUWxT+DAeFw0xOTAxMDMxNjAwMDBaFw0zMDA4MTAxNjAwMDBaMCMxITAfBgNVBAMeGFu/j8FTV5SikdGUa49nlKJnCZZQUWxT+DCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKml9mJoYVVJZcuzMdCKyrrXEDXbPkvF1WtNA++N+GsVMLM0qbs55jgHdlHIhc5obTu24mXgA/7nH8aev/KWbI76H2P+TAEmZ9ZgIIuZIzCjrj1GnN1xSiLrKdLrR1d8Q0KhLJHZA0JDuZR/4FBHnbNqamUE2NejIBh7RVN0vEpsI8MgZu8FRTfsssrmy9nGiNwoTwIdAP15zyfWxJWfv/CvkWmEDRRkxHPwhbLHmw4c8cAsU+lVv9fIBd5mlF2ZKx7XsQ58mUZLrEhtGLhuE5bjvM43cUbVJo3wNBXJmnGy8Nk9au1a+KQhNexYNhfJTyZXlDpF7WEND4IaMcgO8dECAwEAAaNYMFYwVAYDVR0BBE0wS4AQZNe59j2Mz1gUlcEsmRCYEKElMCMxITAfBgNVBAMeGFu/j8FTV5SikdGUa49nlKJnCZZQUWxT+IIQg015a+Eja5ZLgPzp4PwonjAJBgUrDgMCHQUAA4IBAQCKTqkXHjnRz2OSeMkBpi6WxCSF+SJBBNNkju57D0bTaoatLocrwPtlCz2SFYIeQp8UJ+3eBKCYNeXTvAl5unbJYm5YIXepAhZs3iZkWarBz4Zb+YpQ0y2JiyYqVUVBL/PCIQPna8j6NlWF12pf27TcM3yqIp0EwnAQDwCFI319USndlj0aFNH0LpFQhQbSc/K4NXcPFiAVO9KqUkGleuhZKLB27xI2CtQK+HZg14ESB8EAJZH/awZ1OsqWT/1/KSb+PfSiOpMfwz3D/dEq2TgBBRn8LPS8ras/ecBGaIVNxL6ozTAoB/UhkJr0b4zgJGAOdGzAjHlvmC3VACFvQbFo</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
